@@ -10,94 +10,84 @@
       href="https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap"
       rel="stylesheet"
     />
-    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <style>
+      #portada {
+        max-width: 100%;
+      }
+      legend {
+        font-size: 90%;
+        margin-top: -80%;
+        text-align: center;
+        margin-left: 380px;
+      }
+      
+      li {
+        font-size: 20px;
+      }
+    </style>
+
     <link rel="stylesheet" href="css/estilo.css" />
     <title>Ezequiela's</title>
   </head>
   <body>
-    <nav>
-      <header>
-        <div id="portada">
-          <div id="imagenportada">
-            <img src="imágenes/portada8.jpg" alt="" />
-          </div>
-          <div id="titulo">
-            <legend>Ezequiela's</legend>
-          </div>
+   
+    <header class="container">
+      <div id="portada">
+        <img src="imágenes/portada8.jpg" alt="portada8" />
+
+        <div id="titulo">
+          <legend>Ezequiela's</legend>
         </div>
-        <div id="navegación">
-          <h1>
-            <ol>
-              <li><a href="inicio.html">inicio</a></li>
+      </div>
+    </header>
 
-              <li><a href="producto.html">producto</a></li>
-
-              <li><a href="inspiraciones.html">inspiraciones</a></li>
-
-              <li><a href="nosotras.html">nosotras</a></li>
-
-              <li><a href="contacto.html">contacto</a></li>
-            </ol>
-          </h1>
-        </div>
-      </header>
+    <div class="container">
+    <nav class="navbar navbar-light navbar-expand-md" style="background-color: #cfd4c7;">
+      <a href="index.html" class="navbar-brand">Ezequiela´s</a>
+      <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#toggleMobileMenu"
+      aria-controls="toggleMobileMenu"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+      </span>
+    </button>
+    <div class="collapse navbar-collapse" id="toggleMobileMenu">
+      <ul class="navbar-nav">
+        <li>
+          <a class="nav-link"  href="index.html">Inicio</a>
+        </li>
+        <li>
+          <a class="nav-link"  href="producto.html">Producto</a>
+        </li>
+        <li>
+          <a class="nav-link"  href="inspiraciones.html">Inspiraciones</a>
+        </li>
+        <li>
+          <a class="nav-link"  href="nosotras.html">Nosotras</a>
+        </li>
+        <li>
+          <a class="nav-link"  href="contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
     </nav>
 
     <main class="imagenmain">
       <div id="titulorecorrido">
-      <h2>nuestra historia</h2>
+        <h2>nuestra historia</h2>
       </div>
-
-        <div id="cajasrecuerdos">
-          <div id="caja1">
-            <p>caja1</p>
-          </div>
-
-          <div id="caja2">caja2</div>
-          <div id="caja3">caja3</div>
-        </div>
-        <div id="cajasrecuerdos2">
-          <div id="caja4">
-            <p>caja4</p>
-          </div>
-
-          <div id="caja5">caja5</div>
-          <div id="caja6">caja6</div>
-        </div>
-        <div id="cajasrecuerdos3">
-          <div id="caja7">
-            <p>caja7</p>
-          </div>
-
-          <div id="caja8">caja8</div>
-          <div id="caja9">caja9</div>
-        </div>
-        <div id="cajasrecuerdos4">
-          <div id="caja10">
-            <p>caja10</p>
-          </div>
-
-          <div id="caja11">caja11</div>
-        </div>
-        <div id="cajasrecuerdos5">
-          <div id="caja12">
-            <p>caja12</p>
-          </div>
-
-          <div id="caja13">caja13</div>
-          <div id="caja14">caja14</div>
-        </div>
-        <div id="cajasrecuerdos6">
-          <div id="caja15">
-            <p>caja15</p>
-          </div>
-
-          <div id="caja16">caja16</div>
-          <div id="caja17">caja17</div>
-        </div>
-      </h2>
     </main>
-   
+
     <footer>
       <div id="textofooter">
         <label for="">E-mail</label>
@@ -112,5 +102,10 @@
         <h6>¡te esperamos!</h6>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -10,40 +10,79 @@
       href="https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap"
       rel="stylesheet"
     />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+    crossorigin="anonymous"
+  />
+  <style>
+    #portada {
+      max-width: 100%;
+    }
+    legend {
+        font-size: 90%;
+        margin-top: -80%;
+        text-align: center;
+        margin-left: 380px;
+      }
    
+    li {
+      font-size: 20px;
+    }
+  </style>
     <link rel="stylesheet" href="css/estilo.css" />
     <title>Ezequiela's</title>
   </head>
   <body>
-    <nav>
-      <header>
-        <div id="portada">
+    
+    <header class="container">
+      <div id="portada">
+        <img src="imágenes/portada8.jpg" alt="portada8" />
 
-          <div id="imagenportada">
-            <img src="imágenes/portada8.jpg" alt="portada8">
-          </div>
-          <div id="titulo">
-            <legend>Ezequiela's</legend>
-          </div>
+        <div id="titulo">
+          <legend>Ezequiela's</legend>
+        </div>
+      </div>
+    </header>
 
-        </div>
-        <div id="navegación">
-          <h1>
-            <ol>
-              <li><a href="inicio.html">inicio</a></li>
-  
-              <li><a href="producto.html">producto</a></li>
-  
-              <li><a href="inspiraciones.html">inspiraciones</a></li>
-  
-              <li><a href="nosotras.html">nosotras</a></li>
-  
-              <li><a href="contacto.html">contacto</a></li>
-            </ol>
-          </h1>
-        </div>
-      </header>
+    <div class="container">
+    <nav class="navbar navbar-light navbar-expand-md" style="background-color: #cfd4c7;">
+      <a href="index.html" class="navbar-brand">Ezequiela´s</a>
+      <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#toggleMobileMenu"
+      aria-controls="toggleMobileMenu"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+      </span>
+    </button>
+    <div class="collapse navbar-collapse" id="toggleMobileMenu">
+      <ul class="navbar-nav">
+        <li>
+          <a class="nav-link"  href="index.html">Inicio</a>
+        </li>
+        <li>
+          <a class="nav-link"  href="producto.html">Producto</a>
+        </li>
+        <li>
+          <a class="nav-link"  href="inspiraciones.html">Inspiraciones</a>
+        </li>
+        <li>
+          <a class="nav-link"  href="nosotras.html">Nosotras</a>
+        </li>
+        <li>
+          <a class="nav-link"  href="contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
     </nav>
+  </div>
+
+    <div class="container">
     <main class="imagenmain">
       
       <!-- FORMULARIO -->
@@ -118,25 +157,28 @@
         </h2>
 
     </main>
+  </div>
     
+  <div class="container">
     <footer>
       <div id="textofooter">
         <label for="">E-mail</label>
         <input type="text" placeholder="Ingrese su e-mail" />
         <input type="submit" />
-        <h3>nos vemos por e-mail</h3>
+        <h4>nos vemos por e-mail</h4>
       </div>
       <div id="mediosdepago">
-        <h4>medios de pago</h4>
+        <h5>medios de pago</h5>
       </div>
       <div id="teesperamos">
-        <h5>¡te esperamos!</h5>
+        <h6>¡te esperamos!</h6>
       </div>
-
-      <div id="textoanimación">
-        <p>¡gracias por tu visita!</p>
-      </div>
-     
     </footer>
+  </div>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"
+  ></script>
   </body>
 </html>
