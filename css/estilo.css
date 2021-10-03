@@ -71,30 +71,6 @@ footer {
   font-size: 20px;
 }
 
-#textofooter {
-  position: relative;
-  top: 75px;
-  margin-right: 10px;
-  color: rgb(220, 236, 146);
-  font-size: 15px;
-}
-#mediosdepago {
-  text-align: center;
-  color: rgb(220, 236, 146);
-  position: relative;
-  top: 45px;
-  font-size: 20px;
-}
-
-#teesperamos {
-  text-align: left;
-  color: rgb(220, 236, 146);
-  position: relative;
-  top: 20px;
-  font-size: 25px;
-  margin-left: 40px;
-}
-
 .imagenmain {
   background-position: center;
   background-size: cover;
@@ -129,71 +105,10 @@ ol {
 
 /*producto*/
 
-#imgproducto {
-  display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
-  position: relative;
-  top: 100px;
-}
-
-#imagenuno {
-  margin: 4px;
-  width: 20%;
-  height: auto;
-  transition: 500ms all;
-}
-#imagenuno:hover {
-  transform: rotateZ(360deg);
-}
-#imagendos {
-  margin: 4px;
-  width: 30%;
-  height: auto;
-}
-#imagentres {
-  margin: 4px;
-  width: 40%;
-  height: auto;
-}
-#imgproducto1 {
-  display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
-  position: relative;
-  top: 100px;
-}
-#imagencuatro {
-  margin: 4px;
-  width: 20%;
-  height: auto;
-}
-#imagencinco {
-  margin: 4px;
-  width: 30%;
-  height: auto;
-}
-#imagenseis {
-  margin: 4px;
-  width: 40%;
-  height: auto;
-}
-#imgproducto2 {
-  display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
-  position: relative;
-  top: 200px;
-}
-#oveja1 {
-  margin: 4px;
-  width: 30%;
-  height: auto;
-}
 #armatuproducto {
   text-align: center;
-  margin: 4px;
-  margin-top: 50%;
+  margin-left: 150px;
+  margin-top: 30%;
   height: 4px;
   color: rgb(81, 99, 76);
   font-size: 20px;
