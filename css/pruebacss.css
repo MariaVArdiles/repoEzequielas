@@ -2,18 +2,30 @@
 /*para todas las secciones*/
 * {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+}
 
 body {
-  font-family: "Crafty Girls", cursive; }
+  font-family: "Crafty Girls", cursive;
+}
+
+html,
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
 
 #portada {
   width: 100%;
-  height: 150px; }
+  height: 150px;
+}
 
 img {
   width: 100%;
-  height: 150px; }
+  height: 150px;
+}
 
 .titulo {
   color: linen;
@@ -22,45 +34,55 @@ img {
   font-weight: lighter;
   animation-name: titulo;
   animation-duration: 2s;
-  animation-iteration-count: infinite; }
+  animation-iteration-count: infinite;
+}
 
 @keyframes titulo {
   0% {
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 
 a {
   color: brown;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 a:hover {
-  background-color: #d8cc98; }
+  background-color: #d8cc98;
+}
 
 footer {
   background-image: linear-gradient(to bottom, #e4e9b5, #51634c);
   opacity: 0.9;
-  height: 350px;
+
   text-align: end;
   font-size: 20px;
-  margin-top: -50px; }
+  margin-top: -50px;
+}
 
 .imagenmain {
   background-position: center;
   background-size: cover;
   background-repeat: repeat-x;
   height: 1000px;
-  background-image: url(../imágenes/mainfondo.jpg); }
+  background-image: url(../imágenes/mainfondo.jpg);
+}
 
 /*inicio*/
 ol {
-  list-style-type: none; }
+  list-style-type: none;
+}
 
 .tituloinicio {
   text-transform: uppercase;
   text-align: center;
   color: #51634c;
-  border: 5px solid #51634c; }
+  border: 5px solid #51634c;
+}
 
 #iniciotexto {
   text-align: center;
@@ -70,7 +92,8 @@ ol {
   text-transform: uppercase;
   position: relative;
   top: 20px;
-  border: 5px solid #51634c; }
+  border: 5px solid #51634c;
+}
 
 /*producto*/
 #armatuproducto {
@@ -79,16 +102,20 @@ ol {
   margin-top: 30%;
   height: 4px;
   color: #51634c;
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 #rosa {
-  color: #ddaadd; }
+  color: #ddaadd;
+}
 
 #celeste {
-  color: #3192be; }
+  color: #3192be;
+}
 
 #crudo {
-  color: #cfba9d; }
+  color: #cfba9d;
+}
 
 #tituloproducto {
   color: #51634c;
@@ -97,7 +124,8 @@ ol {
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
-  top: 40px; }
+  top: 40px;
+}
 
 #cuadros {
   color: #51634c;
@@ -106,7 +134,8 @@ ol {
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
-  top: 150px; }
+  top: 150px;
+}
 
 /*inspiraciones*/
 #tituloinspiraciones {
@@ -116,39 +145,50 @@ ol {
   text-transform: uppercase;
   color: #51634c;
   position: relative;
-  top: 35px; }
+  top: 35px;
+}
 
 .imginsp {
   display: grid;
   grid-template-columns: 500px 500px;
   grid-template-rows: 300px 300px;
-  grid-template-areas: "pinturas texto1" "texto2 campo" "paisajes texto3" "texto4 artistas" "maternidad texto5";
+  grid-template-areas:
+    "pinturas texto1"
+    "texto2 campo"
+    "paisajes texto3"
+    "texto4 artistas"
+    "maternidad texto5";
   row-gap: 10px;
   column-gap: 10px;
   margin-left: 50px;
-  margin-top: 70px; }
+  margin-top: 70px;
+}
 
 .foto1 {
   width: 100%;
   margin: 4px;
-  grid-area: pinturas; }
+  grid-area: pinturas;
+}
 
 .foto2 {
   width: 50%;
   margin-left: 255px;
   grid-area: campo;
-  height: 40px; }
+  height: 40px;
+}
 
 .foto5 {
   width: 100%;
   margin: 4px;
-  grid-area: paisajes; }
+  grid-area: paisajes;
+}
 
 .foto6 {
   width: 50%;
   height: 20px;
   margin-right: 80px;
-  grid-area: campo; }
+  grid-area: campo;
+}
 
 #texto1y1 {
   color: #51634c;
@@ -157,7 +197,8 @@ ol {
   font-weight: 700;
   margin-right: 9px;
   text-align: center;
-  margin-top: 2px; }
+  margin-top: 2px;
+}
 
 #texto2y2 {
   color: #51634c;
@@ -166,7 +207,8 @@ ol {
   grid-area: texto2;
   margin-left: 9px;
   text-align: center;
-  margin-top: 40px; }
+  margin-top: 40px;
+}
 
 #texto3y3 {
   grid-area: texto3;
@@ -175,7 +217,8 @@ ol {
   margin-top: 40px;
   color: #51634c;
   font-size: 20px;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 /*nosotras*/
 #titulorecorrido {
@@ -186,7 +229,8 @@ ol {
   text-align: center;
   position: relative;
   top: 30px;
-  border: 5px solid #51634c; }
+  border: 5px solid #51634c;
+}
 
 /*contacto*/
 .contacto {
@@ -195,39 +239,50 @@ ol {
   position: absolute;
   top: 58%;
   margin-left: 25%;
-  font-size: 25px; }
+  font-size: 25px;
+}
 
 .colores {
-  background-color: #e0deb9; }
+  background-color: #e0deb9;
+}
 
 .almohadones {
-  background-color: #a4a788; }
+  background-color: #a4a788;
+}
 
 .datos {
-  background-color: #ecebde; }
+  background-color: #ecebde;
+}
 
 fieldset {
   border: 5px solid #51634c;
   width: 80%;
-  height: auto; }
+  height: auto;
+}
 
 #crudo1 {
-  color: #b6a791; }
+  color: #b6a791;
+}
 
 #rosa1 {
-  color: hotpink; }
+  color: hotpink;
+}
 
 #gris {
-  color: grey; }
+  color: grey;
+}
 
 #celeste1 {
-  color: deepskyblue; }
+  color: deepskyblue;
+}
 
 #azul {
-  color: blue; }
+  color: blue;
+}
 
 .enviar {
-  background-color: #4d6451; }
+  background-color: #4d6451;
+}
 
 #textoanimación {
   font-family: "Crafty Girls", cursive;
@@ -238,10 +293,14 @@ fieldset {
   animation-iteration-count: infinite;
   position: absolute;
   top: 1700px;
-  margin-left: 350px; }
+  margin-left: 350px;
+}
 
 @keyframes frase {
   from {
-    transform: rotate(180deg); }
+    transform: rotate(180deg);
+  }
   to {
-    transform: rotate(360deg); } }
+    transform: rotate(360deg);
+  }
+}
