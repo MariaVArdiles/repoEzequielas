@@ -29,7 +29,7 @@ img {
 
 .titulo {
   color: linen;
-  font-size: 70px;
+  font-size: 50px;
   font-family: "Crafty Girls", cursive;
   font-weight: lighter;
   animation-name: titulo;
@@ -58,7 +58,6 @@ a:hover {
 footer {
   background-image: linear-gradient(to bottom, #e4e9b5, #51634c);
   opacity: 0.9;
-
   text-align: end;
   font-size: 20px;
   margin-top: -50px;

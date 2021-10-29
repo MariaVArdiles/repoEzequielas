@@ -11,34 +11,58 @@
       rel="stylesheet"
     />
     <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-    crossorigin="anonymous"
-  />
-  <style>
-   
-    legend {
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <style>
+      legend {
         font-size: 90%;
         margin-top: -80%;
         text-align: center;
         margin-left: 380px;
       }
-   
-    li {
-      font-size: 20px;
-    }
-    .text-uppercase {
+
+      li {
         font-size: 20px;
       }
-      .navbar-brand{
+      .text-uppercase {
+        font-size: 20px;
+      }
+      .navbar-brand {
         margin-left: 8px;
       }
-  </style>
+
+      .form {
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        padding-top: 200px;
+      }
+
+      .form-check {
+        font-size: 120%;
+        text-align: center;
+      }
+      .background {
+        width: 50%;
+        background-color: thistle;
+        margin-left: 280px;
+        padding: 20px;
+      }
+    </style>
     <link rel="stylesheet" href="css/pruebacss.css" />
     <title>Ezequiela's Contacto</title>
-    <meta name="description" content="Este es el sitio web de nuestra marca familiar, en el que podrás dejarnos tu datos y preferencias">
-    <meta name="keywords"  content="DATOS, COLOR, MODELO">
+    <meta
+      name="description"
+      content="Este es el sitio web de nuestra marca familiar, en el que podrás dejarnos tu datos y preferencias"
+    />
+    <meta name="keywords" content="DATOS, COLOR, MODELO" />
   </head>
   <body>
     <header>
@@ -57,9 +81,9 @@
         class="navbar navbar-expand-md navbar-light me-auto"
         style="background-color: #d89f36"
       >
-      <a href="index.html" class="navbar-brand">
-        <img src="imágenes/logo_eze.SVG" alt="logo" />
-      </a>
+        <a href="index.html" class="navbar-brand">
+          <img src="imágenes/logo_eze.SVG" alt="logo" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -119,190 +143,267 @@
       </nav>
     </div>
 
+    <!-- FORMULARIO -->
 
     <div class="container">
-    <main class="imagenmain">
-      
-      <!-- FORMULARIO -->
-      <h2 class="contacto">
-      <form action="" method="">
-
-        <fieldset class="datos">
-          <p>Datos del usuario</p>
-          <label for="nombreusuario">Nombre</label>
-          <input
-            type="text"
-            placeholder="Ingrese su nombre"
-            id="nombreusuario"
-          />
-          <br />
-          <label for="">E-mail</label>
-          <input type="text" placeholder="Ingrese su e-mail" />
-          <br />
-          <label for="">Ciudad</label>
-          <input type="text" placeholder="Ingrese su ciudad" />
-          <br />
-          <label for="">Esperamos tus comentarios</label>
-          <br />
-          <textarea
-            name=""
-            placeholder="Escriba aquí su comentario"
-            id=""
-            cols="30"
-            rows="10"
-          ></textarea>
-
-          
-        </fieldset>
-        <br>
-        <!-- Radio Button -->
-
-          <fieldset class="colores">
-            <p>Elige tu color preferido</p>
-            <div id="crudo1">
-            Crudo
-            <input type="radio" name="color" /></div>
-            <div id="rosa1">
-            Rosa
-            <input type="radio" name="color" /></div>
-            <div id="gris">
-            Gris
-            <input type="radio" name="color" /></div>
-            <div id="celeste1">
-            Celeste
-            <input type="radio" name="color" /></div>
-            <div id="azul">
-            Azul
-            <input type="radio" name="color" /></div>
-          </fieldset>
-          <br>
-          <fieldset class="almohadones">
-            <p>Selecciona tu modelo de almohadón preferido</p>
-            <select name="" id="">
-              <option value="">Corazón</option>
-              <option value="">Arroz con Leche</option>
-              <option value="">Cielo</option>
-              <option value="">Flecos</option>
-              <option value="">Caracol</option>
-              <option value="">Paisaje</option>
-            </select>
-          </fieldset>
-          <br>
-          <fieldset class="enviar">
-            <input type="submit" />
-          <input type="reset" />
-          </fieldset>
-        </h2>
-
-    </main>
-  </div>
-    
-  <div class="container my-5">
-    <!-- Footer -->
-    <footer class="text-center text-lg-start text-white" style="padding: 5px">
-      <!-- Section: Links  -->
-      <section class="">
-        <div class="container text-center text-md-start mt-5">
-          <!-- Grid row -->
-          <div class="row mt-3" style="font-size: 15px">
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <!-- Content -->
-              <h6 class="text-uppercase fw-bold">Ezequiela´s</h6>
-              <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
+      <main class="imagenmain">
+        <div class="background">
+          <div class="form">
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
               />
-              <p>Empresa familiar, que hace podructos hechos a mano.</p>
+              <label for="floatingInput">Nombre</label>
             </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div
-              class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4"
-              style="font-size: 15px"
-            >
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold">Productos</h6>
-              <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
+            <div class="form-floating">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Password"
               />
-              <p>
-                <a href="producto.html" class="text-white"
-                  >Almohadones Tejidos</a
-                >
-              </p>
-              <p>
-                <a href="producto.html" class="text-white"
-                  >Almohadones Bordados</a
-                >
-              </p>
-              <p>
-                <a href="producto.html" class="text-white"
-                  >Cuadros enmarcados</a
-                >
-              </p>
-              <p>
-                <a href="producto.html" class="text-white"
-                  >Pedidos especiales</a
-                >
-              </p>
+              <label for="floatingPassword">E-mail</label>
             </div>
-            <!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold">Links</h6>
-              <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
+            <div class="form-floating" style="margin-top: 2%">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Password"
               />
-              <p>
-                <a href="contacto.html" class="text-white">Contacto</a>
-              </p>
-              <p>
-                <a href="contacto.html" class="text-white">Tus intereses</a>
-              </p>
-              <p>
-                <a href="#!" class="text-white">Facebook</a>
-              </p>
-              <p>
-                <a href="#!" class="text-white">Instagram</a>
-              </p>
+              <label for="floatingPassword">Ciudad</label>
             </div>
-            <!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold">Contacto</h6>
-              <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px"
-              />
-              <p><i class="fas fa-home mr-3"></i> Buenos Aires, Argentina</p>
-              <p>
-                <i class="fas fa-envelope mr-3"></i> ezequielasdeco@gmail.com
-              </p>
-              <a href="index.html" class="mb-4 mt-0 d-inline-block mx-auto">
-                <img src="imágenes/logo_eze.SVG" alt="logo" />
-              </a>
+            <div class="form-floating" style="margin-top: 2%">
+              <textarea
+                class="form-control"
+                placeholder="Leave a comment here"
+                id="floatingTextarea"
+              ></textarea>
+              <label for="floatingTextarea">Esperamos tus comentarios</label>
             </div>
-            <!-- Grid column -->
+            <div class="form-check" style="margin-top: 5%">
+              <div class="form-check" style="color: #51634c">
+                Elige tu color
+              </div>
+              <div
+                class="form-check form-check-inline"
+                style="color: rgb(224, 206, 183)"
+              >
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox1"
+                  value="option1"
+                />
+                <label
+                  class="form-check-label"
+                  style="margin-top: 5%"
+                  for="inlineCheckbox1"
+                  >Crudo</label
+                >
+              </div>
+
+              <div class="form-check form-check-inline" style="color: hotpink">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox2"
+                  value="option2"
+                />
+                <label class="form-check-label" for="inlineCheckbox2"
+                  >Rosa</label
+                >
+              </div>
+              <div class="form-check form-check-inline" style="color: grey">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox3"
+                  value="option3"
+                />
+
+                <label class="form-check-label" for="inlineCheckbox3"
+                  >Gris</label
+                >
+              </div>
+              <br />
+              <div
+                class="form-check form-check-inline"
+                style="color: rgb(83, 188, 223)"
+              >
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox4"
+                  value="option4"
+                />
+                <label class="form-check-label" for="inlineCheckbox3"
+                  >Celeste</label
+                >
+              </div>
+              <div class="form-check form-check-inline" style="color: blue">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox5"
+                  value="option5"
+                />
+                <label class="form-check-label" for="inlineCheckbox3"
+                  >Azul</label
+                >
+              </div>
+              <div class="form-check form-check-inline" style="color: green">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox6"
+                  value="option6"
+                />
+                <label class="form-check-label" for="inlineCheckbox3"
+                  >Verde</label
+                >
+              </div>
+            </div>
+            <div class="select">
+              <select
+                class="form-select"
+                aria-label="Default select example"
+                style="margin-top: 5%"
+              >
+                <option selected>Elige tu almohadón</option>
+                <option value="1">Corazón</option>
+                <option value="2">Flecos</option>
+                <option value="3">Trenza</option>
+              </select>
+            </div>
+            <div class="row" style="padding-top: 30px">
+              <div class="col-sm-12 text-center" style="margin-top: 5%">
+                <button class="btn btn-md" style="background-color: orchid">
+                  ENVIAR
+                </button>
+                <button
+                  class="btn btn-danger btn-md"
+                  style="background-color: tomato"
+                >
+                  REESTABLECER
+                </button>
+              </div>
+            </div>
           </div>
-          <!-- Grid row -->
         </div>
-      </section>
-      <!-- Section: Links  -->
-    </footer>
+      </main>
+    </div>
     <!-- Footer -->
-  </div>
+    <div class="container my-5">
+      <footer class="text-center text-lg-start text-white" style="padding: 5px">
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3" style="font-size: 15px">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold">Ezequiela´s</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p>Empresa familiar, que hace podructos hechos a mano.</p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div
+                class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4"
+                style="font-size: 15px"
+              >
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Productos</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p>
+                  <a href="producto.html" class="text-white"
+                    >Almohadones Tejidos</a
+                  >
+                </p>
+                <p>
+                  <a href="producto.html" class="text-white"
+                    >Almohadones Bordados</a
+                  >
+                </p>
+                <p>
+                  <a href="producto.html" class="text-white"
+                    >Cuadros enmarcados</a
+                  >
+                </p>
+                <p>
+                  <a href="producto.html" class="text-white"
+                    >Pedidos especiales</a
+                  >
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Links</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p>
+                  <a href="contacto.html" class="text-white">Contacto</a>
+                </p>
+                <p>
+                  <a href="contacto.html" class="text-white">Tus intereses</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Facebook</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Instagram</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Contacto</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p><i class="fas fa-home mr-3"></i> Buenos Aires, Argentina</p>
+                <p>
+                  <i class="fas fa-envelope mr-3"></i> ezequielasdeco@gmail.com
+                </p>
+                <a href="index.html" class="mb-4 mt-0 d-inline-block mx-auto">
+                  <img src="imágenes/logo_eze.SVG" alt="logo" />
+                </a>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      </footer>
+      <!-- Footer -->
+    </div>
     <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"
-  ></script>
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
