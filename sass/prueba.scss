@@ -1,8 +1,5 @@
 /*para todas las secciones*/
-
-$coloruno: #51634c;
-$colordos: linen;
-$colortres: rgb(81, 99, 76);
+@import "variables.scss";
 
 * {
   margin: 0px;
@@ -103,7 +100,7 @@ ol {
 /*producto*/
 
 #tituloproducto {
-  color: rgb(81, 99, 76);
+  color: $colortres;
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
@@ -111,103 +108,15 @@ ol {
   position: relative;
   top: 40px;
 }
-#cuadros {
-  color: rgb(81, 99, 76);
-  font-size: 30px;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 700;
-  position: relative;
-  top: 150px;
-}
+
 /*inspiraciones*/
 
 #tituloinspiraciones {
   font-size: 15px;
-  border: solid 4px rgb(81, 99, 76);
+  border: solid 4px $colortres;
   text-align: center;
   text-transform: uppercase;
-  color: rgb(81, 99, 76);
+  color: $colortres;
   position: relative;
   top: 35px;
-}
-.imginsp {
-  display: grid;
-  grid-template-columns: 500px 500px;
-  grid-template-rows: 300px 300px;
-  grid-template-areas:
-    "pinturas texto1"
-    "texto2 campo"
-    "paisajes texto3"
-    "texto4 artistas"
-    "maternidad texto5";
-  row-gap: 10px;
-  column-gap: 10px;
-  margin-left: 50px;
-  margin-top: 70px;
-}
-.foto1 {
-  width: 100%;
-  margin: 4px;
-  grid-area: pinturas;
-}
-
-.foto2 {
-  width: 50%;
-  margin-left: 255px;
-  grid-area: campo;
-  height: 40px;
-}
-
-.foto5 {
-  width: 100%;
-  margin: 4px;
-  grid-area: paisajes;
-}
-.foto6 {
-  width: 50%;
-  height: 20px;
-  margin-right: 80px;
-  grid-area: campo;
-}
-
-#texto1y1 {
-  color: rgb(81, 99, 76);
-  font-size: 20px;
-  grid-area: texto1;
-  font-weight: 700;
-  margin-right: 9px;
-  text-align: center;
-  margin-top: 2px;
-}
-#texto2y2 {
-  color: rgb(81, 99, 76);
-  font-size: 20px;
-  font-weight: 700;
-  grid-area: texto2;
-  margin-left: 9px;
-  text-align: center;
-  margin-top: 40px;
-}
-#texto3y3 {
-  grid-area: texto3;
-  margin-left: 9px;
-  text-align: center;
-  margin-top: 40px;
-  color: rgb(81, 99, 76);
-  font-size: 20px;
-  font-weight: 700;
-}
-
-/*nosotras*/
-
-#titulorecorrido {
-  text-transform: uppercase;
-  font-family: "Crafty Girls", cursive;
-  font-size: 15px;
-  color: rgb(81, 99, 76);
-  text-align: center;
-  position: relative;
-  top: 30px;
-  border: 5px solid rgb(81, 99, 76);
 }
