@@ -1,5 +1,9 @@
 /*para todas las secciones*/
 
+$coloruno: #51634c;
+$colordos: linen;
+$colortres: rgb(81, 99, 76);
+
 * {
   margin: 0px;
   padding: 0px;
@@ -27,7 +31,7 @@ img {
 }
 
 .titulo {
-  color: linen;
+  color: $colordos;
   font-size: 70px;
   font-family: "Crafty Girls", cursive;
   font-weight: lighter;
@@ -57,11 +61,7 @@ a:hover {
 }
 
 footer {
-  background-image: linear-gradient(
-    to bottom,
-    rgb(228, 233, 181),
-    rgb(81, 99, 76)
-  );
+  background-image: linear-gradient(to bottom, rgb(228, 233, 181), $colortres);
   opacity: 0.9;
   height: 350px;
   text-align: end;
@@ -85,43 +85,23 @@ ol {
 .tituloinicio {
   text-transform: uppercase;
   text-align: center;
-  color: rgb(81, 99, 76);
-  border: 5px solid rgb(81, 99, 76);
+  color: $colortres;
+  border: 5px solid $colortres;
 }
 
 #iniciotexto {
   text-align: center;
-  color: rgb(81, 99, 76);
+  color: $colortres;
   font-size: 20px;
   font-family: "Crafty Girls", cursive;
   text-transform: uppercase;
   position: relative;
   top: 20px;
-  border: 5px solid rgb(81, 99, 76);
+  border: 5px solid $colortres;
 }
 
 /*producto*/
 
-#armatuproducto {
-  text-align: center;
-  margin-left: 150px;
-  margin-top: 30%;
-  height: 4px;
-  color: rgb(81, 99, 76);
-  font-size: 20px;
-}
-
-#rosa {
-  color: rgb(221, 170, 221);
-}
-
-#celeste {
-  color: rgb(49, 146, 190);
-}
-
-#crudo {
-  color: rgb(207, 186, 157);
-}
 #tituloproducto {
   color: rgb(81, 99, 76);
   font-size: 30px;
@@ -230,68 +210,4 @@ ol {
   position: relative;
   top: 30px;
   border: 5px solid rgb(81, 99, 76);
-}
-
-/*contacto*/
-
-.contacto {
-  color: rgb(81, 99, 76);
-  text-align: center;
-  position: absolute;
-  top: 58%;
-  margin-left: 25%;
-  font-size: 25px;
-}
-.colores {
-  background-color: rgb(224, 222, 185);
-}
-.almohadones {
-  background-color: rgb(164, 167, 136);
-}
-.datos {
-  background-color: rgb(236, 235, 222);
-}
-fieldset {
-  border: 5px solid rgb(81, 99, 76);
-  width: 80%;
-  height: auto;
-}
-
-#crudo1 {
-  color: rgb(182, 167, 145);
-}
-#rosa1 {
-  color: hotpink;
-}
-#gris {
-  color: grey;
-}
-#celeste1 {
-  color: deepskyblue;
-}
-#azul {
-  color: blue;
-}
-.enviar {
-  background-color: rgb(77, 100, 81);
-}
-
-#textoanimación {
-  font-family: "Crafty Girls", cursive;
-  color: rgb(81, 99, 76);
-  font-size: 50px;
-  animation-name: frase;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  position: absolute;
-  top: 1700px;
-  margin-left: 350px;
-}
-@keyframes frase {
-  from {
-    transform: rotate(180deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
